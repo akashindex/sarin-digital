@@ -20,7 +20,6 @@ function Navbar() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-console.log(scrolled, "git push -u origin main")
   return (
     <header
       className={`w-full top-0 z-50 transition-all duration-300 ${
@@ -32,7 +31,7 @@ console.log(scrolled, "git push -u origin main")
       <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 py-4 flex justify-between items-center font-sans">
         <div className="flex items-center space-x-2">
           <Image
-            src="/assets/logo.png"
+            src="/assets/logo-web.png"
             alt="Dolphin Logo"
             width={140}
             height={40}
@@ -41,7 +40,7 @@ console.log(scrolled, "git push -u origin main")
         </div>
 
         {/* Desktop Nav */}
-        <nav className= {`hidden md:flex space-x-6   text-[14px] ${
+        <nav className= {`hidden md:flex space-x-6 text-[14px] ${
         scrolled
           ? 'text-black ' : 'text-white'
     
