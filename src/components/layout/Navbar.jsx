@@ -35,7 +35,8 @@ function Navbar() {
             alt="Dolphin Logo"
             width={140}
             height={40}
-            priority
+           
+        
           />
         </div>
 
