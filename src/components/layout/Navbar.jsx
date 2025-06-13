@@ -33,7 +33,7 @@ function Navbar() {
           <Image
             src="/assets/logo-web.png"
             alt="Dolphin Logo"
-            width={140}
+            width={100}
             height={40}
            
         

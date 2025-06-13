@@ -29,7 +29,7 @@ export default function ScreenCategories() {
                             key={index}
                             className="flex flex-col items-center gap-4 transition-transform"
                         >
-                            <Image
+                             <Image
                                 src={icon}
                                 alt={title}
                                 width={64}

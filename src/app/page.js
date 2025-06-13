@@ -8,6 +8,10 @@ import AdSlider from "@/components/layout/AdSlider";
 import GeopathSection from "@/components/layout/GeopathSection";
 import ScreenCategories from "@/components/layout/ScreenCategories";
 import AdTechSection from "@/components/layout/AdTechSection";
+import StatsSection from "@/components/layout/StatsSection";
+import ContactForm from "@/components/layout/ContactForm";
+import HeroSection from "@/components/layout/HeroSection";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +25,10 @@ export default function Home() {
     <GeopathSection/>
     <ScreenCategories/>
     <AdTechSection/>
+    <StatsSection />
+    <ContactForm/>
+    <HeroSection/>
+    <Footer/>
     </>
   );
 }

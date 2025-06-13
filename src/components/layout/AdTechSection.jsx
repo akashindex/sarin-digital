@@ -40,8 +40,8 @@ export default function AdTechSection() {
           <Image
             src="/assets/image-tech.jpg"
             alt="AdTech Graphic"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             className="object-cover bg-white border-rounnded-lg"
           />
         </div>
