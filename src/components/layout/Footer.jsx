@@ -24,7 +24,6 @@ const Footer = () => {
     <footer className="bg-gray-100 text-black">
       <div className="max-w-[1200px] mx-auto px-4 py-6">
         <div className="flex flex-col gap-4">
-          {/* Logo */}
           <div className="w-[150px] relative h-[40px]">
             <Image
               src="/assets/logo-web.png"
@@ -35,7 +34,6 @@ const Footer = () => {
             />
           </div>
 
-          {/* Navigation Links */}
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium">
             {navLinks.map((link) => (
               <Link key={link.name} href={link.href} className="hover:underline">
@@ -44,7 +42,6 @@ const Footer = () => {
             ))}
           </div>
 
-          {/* Social Media Icons */}
           <div className="flex gap-4 mt-2">
             {socialLinks.map((social, index) => (
               <Link key={index} href={social.href} className="text-black hover:text-gray-700 text-xl">
@@ -53,10 +50,8 @@ const Footer = () => {
             ))}
           </div>
 
-          {/* Footer Bottom */}
           <div className="text-sm text-gray-700 mt-2">
             <p>© 2025 All rights reserved</p>
-            <p>Ver 1.0.185</p>
           </div>
         </div>
       </div>
