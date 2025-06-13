@@ -26,7 +26,7 @@ export default function ReachAudience() {
                     </div>
 
                     {/* Text Content */}
-                    <div className="w-[50%]">
+                    <div className="sm:w-[50%]">
                         <h3 className="text-black text-[34px] font-bold mb-4">
                             DOOH screens across the United States
                         </h3>

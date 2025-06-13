@@ -22,30 +22,28 @@ function Navbar() {
   }, []);
   return (
     <header
-      className={`w-full top-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`w-full top-0 z-50 transition-all duration-300 ${scrolled
           ? 'fixed bg-white shadow-md'
           : 'absolute bg-transparent text-white'
-      }`}
+        }`}
     >
       <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 py-4 flex justify-between items-center font-sans">
         <div className="flex items-center space-x-2">
           <Image
-            src="/assets/logo-web.png"
+            src={scrolled ? "/assets/logo-dark.png" : "/assets/logo-web.png"}
             alt="Dolphin Logo"
             width={100}
             height={40}
-           
-        
+            className='w-[150px] h-[40px] object-contain transition-all duration-300'
+
           />
         </div>
 
         {/* Desktop Nav */}
-        <nav className= {`hidden md:flex space-x-6 text-[14px] ${
-        scrolled
-          ? 'text-black ' : 'text-white'
-    
-      }`}>
+        <nav className={`hidden md:flex space-x-6 text-[14px] ${scrolled
+            ? 'text-black ' : 'text-white'
+
+          }`}>
           <Link href="/" className={navLinkClasses}>
             Agencies & Brands
           </Link>
