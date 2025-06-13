@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const categories = [
     
-      {  title: "Convenience Stores", icon: "/assets/stores-1.svg"},
-    { title: "Grocery Stores", icon: "/assets/stores-2.svg" },
-    { title: "Point of Sale", icon: "/assets/stores-3.svg" },
-    { title: "Pharmacies", icon: "/assets/stores-4.svg" },
-    { title: "Casual Dining", icon: "/assets/stores-5.svg" },
-    { title: "Hotels", icon: "/assets/stores-6.svg" },
-    { title: "ATM Toppers", icon: "/assets/stores-7.svg" },
-    { title: "Urban Panels", icon: "/assets/stores-8.svg" },
+      {  title: "Convenience Stores", icon: "/assets/stores-1.png"},
+    { title: "Grocery Stores", icon: "/assets/stores-2.png" },
+    { title: "Point of Sale", icon: "/assets/stores-3.png" },
+    { title: "Pharmacies", icon: "/assets/stores-4.png" },
+    { title: "Casual Dining", icon: "/assets/stores-5.png" },
+    { title: "Hotels", icon: "/assets/stores-6.png" },
+    { title: "ATM Toppers", icon: "/assets/stores-7.png" },
+    { title: "Urban Panels", icon: "/assets/stores-8.png" },
 ];
 
 export default function ScreenCategories() {
