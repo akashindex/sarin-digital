@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const categories = [
     
-      {  title: "Convenience Stores", icon: "/assets/stores-shop.png"},
+      {  title: "Convenience Stores", icon: "/assets/shop-icon.png"},
     { title: "Grocery Stores", icon: "/assets/items-icon.png" },
     { title: "Point of Sale", icon: "/assets/sale-icon.png" },
     { title: "Pharmacies", icon: "/assets/pharmacies-icon.png" },
