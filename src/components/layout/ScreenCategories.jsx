@@ -34,7 +34,7 @@ export default function ScreenCategories() {
                                 alt={title}
                                 width={64}
                                 height={64}
-                                className="w-16 h-16 object-contain"
+                                className="w-16 h-16 object-cover"
                                 loading="lazy"
                             />
                             <span className="font-semibold text-black">{title}</span>
