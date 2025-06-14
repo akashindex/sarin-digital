@@ -16,7 +16,6 @@ import Footer from "@/components/layout/Footer";
 export default function Home() {
   return (
     <>
-    <Navbar />
     <ImageSlider/>
     <ReachAudience/>
     <SspIntegrationSection/>
@@ -28,7 +27,6 @@ export default function Home() {
     <StatsSection />
     <ContactForm/>
     <HeroSection/>
-    <Footer/>
     </>
   );
 }
